@@ -1,0 +1,97 @@
+@media (min-width: 0px) and (max-width: 376px) {
+    .content-width{
+        height: 55vh;
+        width: 96.7vw;
+    }
+    .margin-style{
+        margin-top: 0;
+    }
+    .nav-right-content{
+        margin-bottom: 3rem;
+    }
+    .my_awsm_style{
+        font-size: 1.5rem;
+    }
+    .input-field-style{
+        height: 5rem;
+        padding: 1rem 4rem;
+    }
+    .input-field-style input{
+        padding: 0.5rem 0.3rem;
+        width: 15rem;
+    }
+    #text-field{
+        width: 16rem!important;
+    }
+    .backg_style{
+        height: 220vh;
+    }
+    #pentaoic-section{
+        margin-top: 75rem;
+    }
+    .flex_display{
+        text-align: center;
+    }
+    .footer{
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 377px) and (max-width: 412px){
+    .content-width{
+        height: 55vh;
+        width: 96.7vw;
+    }   
+    .input-field-style{
+        height: 5rem;
+        padding: 1rem 4rem;
+    }
+    .input-field-style input{
+        padding: 0.5rem 0.3rem;
+        width: 15rem;
+    }
+    #text-field{
+        width: 16rem!important;
+    }
+    .backg_style{
+        height: 160vh;
+    }
+    #pentaoic-section{
+        margin-top: 75rem;
+    }
+    .flex_display{
+        text-align: center;
+    }
+    .footer{
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 416px) and (max-width: 770px){
+    .content-width{
+        height: 40vh;
+    }
+    .para-style{
+        padding: 0;
+        line-height: 1.3;
+    }
+    .margin-style{
+        margin-top: 10px;
+    }
+    .shadow-property{
+        width: 92vw;
+    }
+    .input-field-style input{
+        width: 16rem;
+    border: 2px solid red;
+    padding: 0.7rem 0.7em;
+    background: none;
+    border-radius: 5px
+    }
+    .backg_style{
+        height: 95vh;
+    }
+    #quadratic-section{
+        height: 65vh;
+    }
+}

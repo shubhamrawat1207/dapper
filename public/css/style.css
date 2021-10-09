@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* *************************************navbar and header section styling here ***************************************** */
+.navbar{
+    position: relative;
+    z-index: -1;
+}
+.header{
+    height: 115vh;    
+    width: 100%;
+    background-image:url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.navbar::before,.header::before{
+    content: "";
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    opacity: 0.5;
+    z-index: 1;
+    background: linear-gradient(rgb(15, 15, 15),rgb(15,15,15));
+}
+#banner-section{
+    height: 60vh;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: #b47425;
+    transform: translateY(1px);
+}
+.img-Fluid{
+    height: 80vh;
+    width: 100vw;
+}
+
+.text-color{
+    color: white;
+}
+.col-style{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shadow-property:hover{
+    box-shadow: 0 0 20px 0 rgb(202, 31, 31);
+    transform: translateY(-20px);
+}
+.backg_style{background-color: #fff;height: 140vh;}
+
+
+.align-center p{
+    color:#bf925b ;
+}
+
+.container a{
+    color: white;
+}
+.content-width{
+    height: 85vh;
+    width: 32.2vw;
+    
+}
+.margin-style{
+    margin-top: 8rem;
+}
+.para-style{
+    line-height: 2;
+    padding: 2.5rem;
+}
+.input-field-style{
+    height: 6rem;
+    padding: 2rem 5rem;
+}
+.input-field-style input,.input-field-style textarea{
+    width: 27rem;
+    border: 2px solid brown;
+    padding: 0.7rem 0.5rem;
+    background: none;
+    border-radius: 10px;
+}
+.nav-right-context{
+    width: 15rem;
+    margin: auto;
+    transform: translate(1rem,15rem);
+}
+.img-dynamic{
+    height: 20rem;
+}
+.card-text{
+    color: #000;
+    text-align: center;
+}
+.pixart{
+    height: 500px;
+    width: 350px;
+}
+.my-awsm-card{
+    text-align: center;
+    margin-top: 5rem;
+    border-right: 1px solid brown;
+    height: 22rem;
+}
+.my-awsm-card p,.my-awsm-card h4,.my-awsm-card h3{
+    color: gray;
+}
+.centre-align{
+    transform: translateY(7rem);
+}
+.jumbo-class{
+    margin: 0;
+    padding: 0;
+}
+.flex_display{display: flex;justify-content: center;flex-direction: column;}
+/* footer style  */
+.footer{
+    line-height: 2;
+}
+.fontawsome{
+    width: 1.6vw;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
