@@ -5,10 +5,7 @@
     color: white;
 }
 /* *************************************navbar and header section styling here ***************************************** */
-.navbar{
-    position: relative;
-    z-index: -1;
-}
+
 .header{
     height: 115vh;    
     width: 100%;
@@ -17,30 +14,27 @@
     background-size: 100% 100%;
     position: relative;
 }
-.navbar::before,.header::before{
-    content: "";
-    position:absolute;
-    top: 0%;
-    left: 0%;
-    bottom: 0%;
-    right: 0%;
-    opacity: 0.5;
-    z-index: 1;
-    background: linear-gradient(rgb(15, 15, 15),rgb(15,15,15));
-}
 #banner-section{
     height: 60vh;
 }
+.nav_bar{
+    margin-left: 35rem;
+}
 .nav-link:hover{
+    color: rgb(199, 164, 164);
     text-decoration: underline;
-    color: #b47425;
-    transform: translateY(1px);
 }
 .img-Fluid{
     height: 80vh;
     width: 100vw;
 }
-
+.jumbo-class:hover{
+    transform: scale(1.1);
+}
+.text-style {
+    color: #000;
+    font-weight: bolder;
+}
 .text-color{
     color: white;
 }
@@ -62,9 +56,6 @@
     color:#bf925b ;
 }
 
-.container a{
-    color: white;
-}
 .content-width{
     height: 85vh;
     width: 32.2vw;
@@ -121,6 +112,7 @@
     padding: 0;
 }
 .flex_display{display: flex;justify-content: center;flex-direction: column;}
+
 /* footer style  */
 .footer{
     line-height: 2;

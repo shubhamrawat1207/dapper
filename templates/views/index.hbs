@@ -1,70 +1,23 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {{!-- fontawesome cdn link --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Dapper || Grooming</title>
-    <!-- custom css  -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
+{{>header}}
 
 <body>
         {{!-- header section start here  --}}
+        
 <div class="header" id="header-section">
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <i class="fas fa-cut text-danger fa-3x"></i>
-            <a class="navbar-brand"  href="#">DAPPER.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-right-content">
-                <button class="btn-lg btn-danger">BOOK NOW</button>
-            </div>
-        </div>
-    </nav>
-    <header id="banner-section">
+
+    {{>navbar}}
+
+    <header id="banner-section" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-12 text-center col-style">
-                    <p class="text-danger">WELCOME TO HAIRCARE</p>
-                    <h1 class="display-2">WE ARE PROFESSIONAL CARE FOR YOUR HAIR</h1>
+                <div class="col-lg-12 col-12 text-center col-style" data-aos="zoom-in">
+                    <p class="text-danger" style="font-weight: bolder;">WELCOME TO HAIRCARE</p>
+                    <h1 class="display-2 text-style">WE ARE PROFESSIONAL CARE FOR YOUR HAIR</h1>
                     <div class="nav-right-content">
-                        <button class="btn-lg btn-danger">BOOK NOW</button>
+                      <a href="#ternary-section"> <button class="btn-lg btn-danger">BOOK NOW</button> </a>
                     </div>
                 </div>
             </div>
@@ -81,7 +34,7 @@
                 <div class="col-lg-4 col-md-4 col-12">
                     <figure><img class="content-width" src="images/2.jpg" alt="second Image"></figure>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 text-center margin-style">
+                <div class="col-lg-4 col-md-4 col-12 text-center margin-style" data-aos="flip-up">
                     <i class="fas fa-cut text-danger fa-3x"></i>
                     <a class="navbar-brand text-danger" href="#">DAPPER.</a>
                     <h4 class="text-dark dapper">WELCOME TO OUR SALON</h4>
@@ -115,25 +68,25 @@
                     Consonantia</p>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5">
+                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5" data-aos="zoom-in-left">
                     <img src="images/4.png" alt="" class="w-25">
                     <h3 class="text-dark h5">Haircare & Styling</h3>
                     <p class="px-3 text-muted" >A small river named Duden flows by their place and supplies.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5">
+                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5" data-aos="zoom-in-down">
                     <img src="images/5.png" alt="" class="w-25">
                     <h3 class="text-dark h5">Beard</h3>
                     <p class="px-3 text-muted">A small river named Duden flows by their place and supplies.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5">
+                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5" data-aos="zoom-in-up">
                     <img src="images/6.png" alt="" class="w-25">
                     <h3 class="text-dark h5">Makeup</h3>
                     <p class="px-3 text-muted">A small river named Duden flows by their place and supplies.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5">
+                <div class="col-lg-3 col-md-3 col-12 shadow-property text-center py-5 px-5" data-aos="zoom-in-right">
                     <img src="images/7.png" alt="" class="w-25">
                     <h3 class="text-dark h5">Body Treatment</h3>
                     <p class="px-3 text-muted">A small river named Duden flows by their place and supplies.
@@ -145,7 +98,7 @@
     <!-- secondary section end here  -->
 
     <!-- ternary section start here  -->
-    <section id="ternary-section" class="backg_style">
+    <section id="ternary-section" class="backg_style" data-aos="fade-up-left">
         <div class="container">
             <div class="row text-center py-5" style="line-height: 3;">
                 <p class="text-danger">BOOKING</p>
@@ -154,7 +107,7 @@
                     Consonantia</p>
             </div>
             <div class="row">
-                <form action="/login" method="post">
+                <form action="/booking" method="post">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12 input-field-style">
                             <input type="text" name="name" id="fullname" placeholder="Name">
@@ -187,7 +140,7 @@
                     </div>
                     <div class="row">
                         <div class="nav-right-context">
-                            <button class="btn-lg btn-danger">BOOK NOW</button>
+                            <button type="submit" class="btn-lg btn-danger">BOOK NOW</button>
                         </div>
                     </div>
                 </form>
@@ -423,5 +376,9 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/kot99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
     <script src="js/manipulator.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
